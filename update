@@ -26,6 +26,7 @@ rm -rf tsconfig.json
 yarn create t3-app --noGit --noInstall --tailwind true --nextAuth true --prisma true --trpc true --default
 	
 find my-t3-app -maxdepth 1 -not -name my-t3-app -exec sh -c 'mv "$@" "$0"' ./ {} +
+cp .env-example .env
 	
 yarn install
 yarn prisma db push
