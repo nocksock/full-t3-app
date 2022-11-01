@@ -32,4 +32,5 @@ yarn install
 yarn prisma db push
 
 git add .
+git add -f .env
 git commit -m "chore: run update script"
