@@ -1,0 +1,16 @@
+{
+  "setupTasks": [
+    {
+      "name": "Installing Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "name": "Preparing prisma",
+      "command": "yarn prisma db push"
+    },
+    {
+      "name": "Building Workspace",
+      "command": "yarn build"
+    }
+  ]
+}

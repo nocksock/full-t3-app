@@ -31,5 +31,4 @@ yarn install
 yarn prisma db push
 
 git add .
-git add -f ./node_modules/@prisma/client
 git commit -m "chore: run update script"
