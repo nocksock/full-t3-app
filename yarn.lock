@@ -51,9 +51,9 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@next-auth/prisma-adapter@^1.0.4":
+"@next-auth/prisma-adapter@1.0.5":
   version "1.0.5"
-  resolved "https://registry.npmjs.org/@next-auth/prisma-adapter/-/prisma-adapter-1.0.5.tgz"
+  resolved "https://registry.yarnpkg.com/@next-auth/prisma-adapter/-/prisma-adapter-1.0.5.tgz#41a2fc7b44907054b81d456b426164e58becf4ed"
   integrity sha512-VqMS11IxPXrPGXw6Oul6jcyS/n8GLOWzRMrPr3EMdtD6eOalM6zz05j08PcNiis8QzkfuYnCv49OvufTuaEwYQ==
 
 "@next/env@13.0.2":
@@ -188,40 +188,40 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tanstack/query-core@4.14.1":
-  version "4.14.1"
-  resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.14.1.tgz"
-  integrity sha512-mUejKoFDe4NZB8jQJR1uuAl6IwvkUpOD2m8NcuTVPOu0pcxeeFPdrnHaljwOEFPtlqXoiiIIQGYy6whjCMN+iQ==
+"@tanstack/query-core@4.19.1":
+  version "4.19.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.19.1.tgz#2e92d9e8a50884eb231c5beb4386e131ebe34306"
+  integrity sha512-Zp0aIose5C8skBzqbVFGk9HJsPtUhRVDVNWIqVzFbGQQgYSeLZMd3Sdb4+EnA5wl1J7X+bre2PJGnQg9x/zHOA==
 
-"@tanstack/react-query@^4.10.0":
-  version "4.14.1"
-  resolved "https://registry.npmjs.org/@tanstack/react-query/-/react-query-4.14.1.tgz"
-  integrity sha512-cRgNzigw4GSPwGlTEkXi8hi/xgUnSEt9jCkiC8oAT3PEIdsQ50onZcpXd+JNJcZk2RTh8KM1fGyWz6xYLiY8bg==
+"@tanstack/react-query@^4.16.0":
+  version "4.19.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.19.1.tgz#43356dd537127e76d75f5a2769eb23dafd9a3690"
+  integrity sha512-5dvHvmc0vrWI03AJugzvKfirxCyCLe+qawrWFCXdu8t7dklIhJ7D5ZhgTypv7mMtIpdHPcECtCiT/+V74wCn2A==
   dependencies:
-    "@tanstack/query-core" "4.14.1"
+    "@tanstack/query-core" "4.19.1"
     use-sync-external-store "^1.2.0"
 
-"@trpc/client@10.0.0-rc.4":
-  version "10.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.0.0-rc.4.tgz#0ea6afe5bfe319b1da8c22e29ddef77225a2cd1b"
-  integrity sha512-kzyDnFjBaNz/bL/Fir0jr1NgPoZ4Leho5NttAa3Xgml4tMV874LNrCeBbXf6GGU8bjeqTc2XarfnDcJokw2CXg==
+"@trpc/client@^10.0.0":
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.4.3.tgz#a0d9963481ac3ac6f3939f827654cdaa3a0c5fda"
+  integrity sha512-VMdyLHr6PG2FlMxnbPt/6jniDBxv3Ys1hFhk0AriFDD9h4Lg9fznwGn5RI1eV5RCOAoCQ/+ZwPMSKOMBhiycTw==
 
-"@trpc/next@10.0.0-rc.4":
-  version "10.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.0.0-rc.4.tgz#b547422d2eba074f4cc18d90590b3a0bf9bc1361"
-  integrity sha512-i9lynpSeBxZnEVqALNQVWidlQbagsLGP+IIWILV7x70ltZI8A+k2T1bwfd+ZhS6Mj1Avp0bvW2sB0psfS8pE5g==
+"@trpc/next@^10.0.0":
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.4.3.tgz#9ae8c50a79c90ea3e3b102c63f52b6f56b97bc35"
+  integrity sha512-H4sM3lrtA2seFFkgXcW3ZQLCqGS7YqJNYDQx8FOlvcoH+klmQ+UNNgurdP2R/i50nGFwc4aN9kENrsvq0xfH5A==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
-"@trpc/react-query@10.0.0-rc.4":
-  version "10.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.0.0-rc.4.tgz#27280d14fe5efe5fa0ef6105dcfd5afbf6dcf966"
-  integrity sha512-aUG6ejTY3WBkcOw3FUSzlJtWjAbdEETt77WrVRXxfyd/kid+n/vlK+lW87iO0LhUvFMzcqtFG+bQKEi3oEffCw==
+"@trpc/react-query@^10.0.0":
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.4.3.tgz#53aa3505f9ff5e2522c92b41f02f6288a1b4bea5"
+  integrity sha512-gm8hnV8Q7RPc0am0paSuu30+jk9cQoJhKByAdrTRoLUEkuDb7r78sebN6RM3OYMPfWfSBGutIoWHkjJzP2kdtw==
 
-"@trpc/server@10.0.0-rc.4":
-  version "10.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.0.0-rc.4.tgz#6744538243ac4033602c81c2a4ec0500fd67015f"
-  integrity sha512-svW7FcjoWv4AXPjF0Kyf4c3zGuav/GwzfyldZyQh+qQ5fEHBRe69aNNpifbykuxv4svV8daQtTYqW/PsItO7FQ==
+"@trpc/server@^10.0.0":
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.4.3.tgz#8db5dc9a5082feea593d58b845ceef6a1adaf3d9"
+  integrity sha512-U+TVFtMUnySUfKHXjdpdZdFS268naGafbjQiG/H7t0OKpiLnbJ4IhgyYzj82Hvghb6Ow9E+UTNt6ALP7KoN4/g==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -1537,10 +1537,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-auth@^4.15.1:
-  version "4.16.4"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.16.4.tgz#3ab796a0979ac05a6ebc1fbf343983ef5bc965c9"
-  integrity sha512-KXW578+ER1u5RcWLwCHMdb/RIBIO6JM8r6xlf9RIPSKzkvDcX9FHiZfJS2vOq/SurHXPJZc4J3OS4IDJpF74Dw==
+next-auth@4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.17.0.tgz#776d2a0999d4e2eb56968cad282c1ecd37516a2c"
+  integrity sha512-aN2tdnjS0MDeUpB2tBDOaWnegkgeMWrsccujbXRGMJ607b+EwRcy63MFGSr0OAboDJEe0902piXQkt94GqF8Qw==
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@panva/hkdf" "^1.0.1"
